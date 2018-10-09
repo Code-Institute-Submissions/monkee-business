@@ -87,9 +87,26 @@ header {
     font-family: Roboto, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
     font-size: 14px;
     letter-spacing: 2px;
     color:#990000;
+}
+.newsletter {
+    text-align: center;
+    display:block;
+}
+.icon {
+    font-size: 14px;
+    color: #990000;
+}
+.btn-cta {
+    background-color: #990000;
+    color:#ffffff;
+}
+.btn-cta:hover {
+    background-color: #538cc6;
+    color:#ffffff;
 }
 .social-links {
     padding-top:5px;
@@ -120,6 +137,6 @@ header {
     font-family: 'Concert One', cursive;
     background-color: #e6eaf2;
 }
-footer .container-fluid {
+.footer-container{
     padding:0;
 }
