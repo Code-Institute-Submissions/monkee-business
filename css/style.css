@@ -72,6 +72,7 @@ header {
     background: #538cc6;
     height: 100px;
 }
+
 /*...........................................footer*/
 
 .banner {
@@ -139,4 +140,40 @@ header {
 }
 .footer-container{
     padding:0;
+}
+/*...........................................contact*/
+.contact-heading{
+    font-family: 'Concert One', cursive;
+    text-transform: uppercase;
+    color: #909090;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+h4 {
+    color: #990000;
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    background-color: #990000;
+    color: #fafafa;
+}
+button[type="submit"]:hover {
+    background-color: #538cc6;
+    color:#ffffff;
+}
+/*...........................................media queries*/
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+    }
 }
