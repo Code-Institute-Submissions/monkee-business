@@ -304,6 +304,9 @@ p {
 
 /** timeline content **/
 
+h1 {
+  text-align: center;
+}
 .tl-heading h4 {
   margin: 0;
   color: #336699;
@@ -313,16 +316,24 @@ p {
   margin-bottom: 0;
 }
 
-.tl-body > p + p {
+.tl-body > p {
   margin-top: 5px;
 }
 .tl-body-left img {
   float:left;
   margin-right: 30px;
 }
-.timeline-inverted .tl-body img {
-  float: right;
-  margin-left:30px;
+
+.audio-container {
+  height: 250px;
+  text-align: center;
+}
+.audio-container img {
+  float: inherit;
+}
+.audio-container audio {
+  position: relative;
+  width: 80%;
 }
 
 /** media queries **/
@@ -377,7 +388,7 @@ p {
 /*...........................................contact*/
 
 .bg-form {
-    background-color: #000;
+    background-color: #336699;
 }
 
 .contact-heading{
