@@ -72,74 +72,27 @@ header {
     background: #538cc6;
     height: 100px;
 }
+/*..........................callout*/
 
-/*...........................................footer*/
-
-.banner {
-    background: url("../band-assets/images/monkees.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.callout-container {
+  height: 100vh;
+  background: url(../band-assets/images/bg-image.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items:center;
+  position: relative;
+}
+/* Opaque Overlay */
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
-    min-height: 200px;
-    padding: 0;
-}
-.sub-heading {
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 2px;
-    color:#990000;
-}
-.newsletter {
-    text-align: center;
-    display:block;
-}
-.icon {
-    font-size: 14px;
-    color: #990000;
-}
-.btn-cta {
-    background-color: #990000;
-    color:#ffffff;
-}
-.btn-cta:hover {
-    background-color: #538cc6;
-    color:#ffffff;
-}
-.social-links {
-    padding-top:5px;
-    padding-bottom: 10px;
-    text-align: center;
-    word-spacing: 20px;
-}
-.social-links li a i {
-    width:32px;
-    height:32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 15px;
-    line-height:7px;
-    text-align: center;
-    color: #fafafa;
-    background:#990000;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-.social-links li a i:hover {
-    background:#538cc6;
-}
-#footer-details {
-    margin:0px;
-    font-family: 'Concert One', cursive;
-    background-color: #e6eaf2;
-}
-.footer-container{
-    padding:0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*...........................................about*/
@@ -170,7 +123,7 @@ p {
     background: #D8D8D8;
     color: #990000;
 }
-/*...........................................Music*/
+/*...........................................music*/
 .bg-timeline {
     background:#336699;
 }
@@ -425,4 +378,72 @@ button[type="submit"]:hover {
     margin: 0 auto;
     max-width: 50%;
     }
+}
+/*...........................................footer*/
+
+.banner {
+    background: url("../band-assets/images/monkees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    padding: 0;
+}
+.sub-heading {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color:#990000;
+}
+.newsletter {
+    text-align: center;
+    display:block;
+}
+.icon {
+    font-size: 14px;
+    color: #990000;
+}
+.btn-cta {
+    background-color: #990000;
+    color:#ffffff;
+}
+.btn-cta:hover {
+    background-color: #538cc6;
+    color:#ffffff;
+}
+.social-links {
+    padding-top:5px;
+    padding-bottom: 10px;
+    text-align: center;
+    word-spacing: 20px;
+}
+.social-links li a i {
+    width:32px;
+    height:32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height:7px;
+    text-align: center;
+    color: #fafafa;
+    background:#990000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+    background:#538cc6;
+}
+#footer-details {
+    margin:0px;
+    font-family: 'Concert One', cursive;
+    background-color: #e6eaf2;
+}
+.footer-container{
+    padding:0;
 }
