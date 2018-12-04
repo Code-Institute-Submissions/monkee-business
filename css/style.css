@@ -405,6 +405,7 @@ button[type="submit"]:hover {
     width: 100%;
     min-height: 200px;
     padding: 0;
+    overflow:hidden;
 }
 .sub-heading {
     font-family: Roboto, sans-serif;
