@@ -78,6 +78,7 @@ header {
   position: relative;
   overflow: hidden;
   background-color:black;
+  margin-bottom: 0;
 }
 .jumbotron video {
   position: absolute;
@@ -89,7 +90,7 @@ header {
   object-fit: cover;
   opacity:0.5;
 }
-.container-cta a .btn .btn-warning .btn-lg {
+.jumbotron p {
   text-align: center;
 }
 .jumbotron .container-cta {
@@ -102,7 +103,13 @@ header {
 .container-cta p {
   color:#ffffff;
 }
-
+.cta-wrapper {
+  text-align: center;
+}
+.ctr-btn {
+  margin:auto;
+  display:table;
+}
 /*...........................................about*/
 
 img {
