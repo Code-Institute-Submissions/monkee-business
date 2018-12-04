@@ -125,6 +125,12 @@ p {
     text-align: justify;
     color: #990000;
 }
+.about {
+  border-right: 3px solid #336699;
+  border-left: 2px solid #336699;
+  border-bottom: 3px solid #336699;
+  border-radius: 8px;
+}
 .about .btn {
     background-color: #990000;
     border-color: #000;
@@ -405,7 +411,6 @@ button[type="submit"]:hover {
     width: 100%;
     min-height: 200px;
     padding: 0;
-    overflow:hidden;
 }
 .sub-heading {
     font-family: Roboto, sans-serif;
