@@ -92,13 +92,18 @@ header {
 }
 .jumbotron p {
   text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .jumbotron .container-cta {
   z-index: 2;
   position: relative;
 }
-.container-cta h1 {
+.cta-heading {
+  font-family: 'Concert One', cursive;
+  font-size: 46px;
   color:#ffffff;
+  text-align: center;
 }
 .container-cta p {
   color:#ffffff;
@@ -126,10 +131,15 @@ p {
     color: #990000;
 }
 .about {
-  border-right: 3px solid #336699;
+  /* border-right: 3px solid #336699;
   border-left: 2px solid #336699;
-  border-bottom: 3px solid #336699;
+  border-bottom: 3px solid #336699; */
+  border: 3px solid #336699;
   border-radius: 8px;
+}
+.about-heading {
+  color: #336699;
+  text-transform: uppercase;
 }
 .about .btn {
     background-color: #990000;
