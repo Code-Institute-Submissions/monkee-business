@@ -1,4 +1,6 @@
-# Stream One Project - Monkee Business #
+# Stream One Project - Monkee Business # 
+
+[Monkee Business](https://amdavo4.github.io/monkee-business/)
 
 The purpose of this project is to create a frontend only website for a 60's band using technologies learnt as part of Stream One of the Full Stack Web Developer Course.  The Band have been in circulation for 50 years and wish to highlight their availability to perform at various events, attract new fans and retain current fans by providing access to their news, music and history. 
 
@@ -55,13 +57,13 @@ The project uses JavaScript for the interactive aspects of the website, i.e. the
 
 ## Testing ##
 
-This project was a pain-staking process as I literally tested every change to both HTML and CSS. I began with the header and ran into problems with the logo.  I had initially chosen an image of the band as the logo but this did not respond well when resizing to mobile so I resolved the issue by substituting an image of the Monkees guitar logo. Chrome developer tools were helpful when designing the footer as the content appeared out of line with the rest of the page.  This was resolved by creating a wrapper (footer-container) with 0 padding. I tested that the link to the contact form in the footer was working and ensured there was email validation in the newsletter sign up section.  I verified that links to Social Media were functioning correctly.
+This project was a pain-staking process as I literally tested every change to both HTML and CSS. I began with the header and ran into problems with the logo.  I had initially chosen an image of the band as the logo but this did not respond well when resizing to mobile so I resolved the issue by substituting an image of the Monkees guitar logo. Chrome developer tools were helpful when designing the footer as the content appeared out of line with the rest of the page.  This was resolved by creating a wrapper (footer-container) with 0 padding. I tested that the link to the contact form in the footer was working and ensured there was email validation in the newsletter sign up section.  I verified that links to Social Media were functioning correctly. It had been my plan to have an image as a background on the Home page but the one I selected wasn't sufficiently high res so I abandoned it.  It was then I came up with the idea of using the video element as a background and felt that was more effective and eye-catching. I ensured that the 'learn more' and 'read more' links opened in a separate tab. I tested that all links on the About page brought the user to the correct Wikipedia page.  For the Music page I tested that all audio elements were working correctly by clicking on each one.  I had a concern that the timeline might be too lengthy but was assured by my mentor that this was not an issue.  For the Contact page, I tested the form by leaving some fields empty and omitting the '@' symbol in the email field and submitting. I was satisfied that the validation was working correctly. Having completed testing of all pages in the website, I ran the code through the HTML validator.  This was a useful exercise as I had not spotted that I had 2 instances of 'h1' code on the Home and Contact pages.  I rectified this by amending the headings in the body of the HTML.  Also, the validator picked up that I had not included a heading for the About page so this was duly added. I then tested the website for responsiveness in the Chrome, IE, Mozilla and Safari browsers and was satisfied with the result.  I retested all links in each of the Browsers and there was no issue. 
 
 
 
 ## Deployment ##
 
-I went through the process of publishing my site on GitHub pages via the settings in my Monkee-Business repository.
+I went through the process of publishing my site on GitHub pages via the settings in my Monkee-Business repository.  Link to project [here](https://amdavo4.github.io/monkee-business/)
 
 ## Credits ##
 
@@ -69,8 +71,8 @@ I would like to thank my mentor, Jim Richmond for his patience and helpful advic
 
 ### Content ###
 
-* The text for the About section was copied from the Wikipedia articles on the Monkees band members and links to these pages are contained therein.  The text for the timeline was obtained from the Wikipedia article on the Monkees discography.
 * The jumbotron on the Home page was adapted from a pen by Jacob Lett
+* The text for the About section was copied from the Wikipedia articles on the Monkees band members and links to these pages are contained therein.  The text for the timeline was obtained from the Wikipedia article on the Monkees discography.
 * The timeline on the Music page was adapted from a Timeline snippet on [Bootsnipp](https://bootsnipp.com/snippets/k7KxQ)
 * The Contact form on the Contact page was adapted from the Code Institute resume project
 
@@ -78,3 +80,4 @@ I would like to thank my mentor, Jim Richmond for his patience and helpful advic
 ### Media ###
 
 * The images used in this site were obtained from Code Institute's GitHub Repo and Wikipedia articles relating to the Monkees.
+* The video and audio elements were obtained from Code Institute's GitHub Repo
